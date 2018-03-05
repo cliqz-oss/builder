@@ -1,5 +1,5 @@
 {
-  "name": "systemjs-builder",
+  "name": "@cliqz-oss/systemjs-builder",
   "version": "0.16.13",
   "description": "SystemJS Build Tool",
   "main": "index.js",
