@@ -23,7 +23,9 @@
 
   // bare minimum ignores
   var ignoredGlobalProps = ['_g', 'sessionStorage', 'localStorage', 'clipboardData', 'frames', 'frameElement', 'external',
-      'mozAnimationStartTime', 'webkitStorageInfo', 'webkitIndexedDB', 'mozInnerScreenY', 'mozInnerScreenX'];
+      'mozAnimationStartTime', 'webkitStorageInfo', 'webkitIndexedDB', 'mozInnerScreenY', 'mozInnerScreenX',
+      'mozfullscreenchange', 'onmozfullscreenerror', 'scrollMaxX', 'scrollMaxY'
+  ];
 
   var globalSnapshot;
   function globalIterator (globalName) {
