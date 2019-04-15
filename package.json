@@ -1,6 +1,6 @@
 {
   "name": "@cliqz-oss/systemjs-builder",
-  "version": "0.16.14",
+  "version": "0.16.15",
   "description": "SystemJS Build Tool",
   "main": "index.js",
   "dependencies": {
